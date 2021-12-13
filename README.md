@@ -1,5 +1,5 @@
 # Void-Packages Sources Management wrapper for XBPS-SRC.
-![vpsm](https://github.com/sinetoami/vpsm/raw/master/doc/print.png)
+![vpsm](https://github.com/sineto/vpsm/raw/master/doc/print.png)
 **vpsm** was made specifically for [Void Linux][0]. Is a simple wrapper for [**xbps-src**][1] commands that allows handling binary packages sources, query, smooth the workflow of the creation of new packages - and a little more. Also used to substitute some commands from [**xtools**][2] collection utilities.
 
 ## Motivation
@@ -28,7 +28,7 @@ $ echo "export XBPS_DISTDIR=$HOME/.void-packages" >> ~/.zshrc
 
 ### 3. Clone this repository
 ```bash
-$ git clone https://github.com/sinetoami/vpsm.git
+$ git clone https://github.com/sineto/vpsm.git
 ```
 
 ### 4. Add the `vspm` executable to `PATH`
@@ -39,7 +39,7 @@ export PATH=$PATH:/path/to/vpsm/directory
 I like to create a hidden  `.bin` directory on my `$HOME` path and add it to `$PATH` var, move/copy/link the `vpsm` executable. But you can do it any way you like.
 ```bash
 $ mkdir ~/.bin
-$ git clone https://github.com/sinetoami/vpsm.git ~/vpsm
+$ git clone https://github.com/sineto/vpsm.git ~/vpsm
 $ cd vpsm
 $ ln -s ~/vpsm/vpsm ~/.bin/
 $ echo "export PATH=$PATH:$HOME/.bin" >> ~/.zshrc
@@ -161,7 +161,7 @@ hicolor-icon-theme
 
 ## References
 * Xbps-src - Void Linux Wiki - https://wiki.voidlinux.eu/Xbps-src
-* Void Packages Manual - https://github.com/sinetoami/void-packages/blob/master/Manual.md
+* Void Packages Manual - https://github.com/sineto/void-packages/blob/master/Manual.md
 * VoidLinux's quick PR guide - https://forum.voidlinux.org/t/voidlinuxs-quick-pr-guide/6333
 
 ## Special thanks
@@ -173,12 +173,12 @@ Thank you guys! Cheers!
 
 ## Self-Promotion
 Do you like this plugin? Come on:
-- Star and follow the repository on [GitHub](https://github.com/sinetoami/vpsm).
+- Star and follow the repository on [GitHub](https://github.com/sineto/vpsm).
 - Follow me on
-  - [GitHub](https://github.com/sinetoami)
+  - [GitHub](https://github.com/sineto)
 
 ## License
-[MIT License](https://raw.githubusercontent.com/sinetoami/vpsm/master/LICENSE)
+[MIT License](https://raw.githubusercontent.com/sineto/vpsm/master/LICENSE)
 
 
 [0]: https://voidlinux.org
